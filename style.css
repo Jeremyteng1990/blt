@@ -1,0 +1,87 @@
+﻿/*
+Theme Name: taizhong
+Theme URI: http://www.gxtaizhong.com
+Description: һ���򵥵Ĺ�˾��վ.
+Version: 1.0
+Author: taizhong
+Author URI: http://www.gxtaizhong.com
+*/
+
+* { margin:0; padding:0; list-style:none; }
+body { font-family:"宋体"; font-size:12px;}
+input, select, textarea { font-size:12px; padding:3px 5px; }
+.layout { width:960px; margin:0 auto;/*����*/ }
+.clear { clear:both;/*��������*/ }
+img { border:none; }
+li { line-height:22px;/*ȫ���б��и�*/ }
+h1 { font-size:14px; text-align:center; line-height:26px; }
+h2 { font-size:12px; }
+p { line-height:22px; }
+a { color:#000; text-decoration:none; }
+a:hover { color:#BC1316; text-decoration:underline; }
+/*ͷ����ʼ*/
+#top { height:75px; border-top:5px solid #134789; }
+#logo { height:75px; width:227px; float:left; }
+#top_ad { height:75px; width:468px; float:left; padding-top:5px; padding-left:75px; }
+#top_menu { height:75px; width:150px; text-align:right; float:right; padding-top:5px; padding-right:5px; }
+#banner { height:180px; }
+/*ͷ������*/
+
+/*��������ʼ*/
+#nav { height:37px; margin:3px auto; background:url(images/nav_bg.jpg) no-repeat; }
+#nav ul li { float:left; line-height:37px; background:url(images/nav_bg_div.jpg) right no-repeat; width:86px; text-align:center; }
+#nav ul li a { display:block; color:#FFF; font-size:12px; font-weight:bold; }
+#nav ul li a:hover { text-decoration:none; background:url(images/nav_bg_hover.jpg) center no-repeat; color:#000; }
+/*����������*/
+
+/*�õ�Ƭ*/
+#KinSlideshow {float:left;height:300px;background:#999; margin-top:5px; margin-bottom:5px; }
+#KinSlideshow img {width:960px;height:300px;}
+
+/*���忪ʼ*/
+#content { }
+#left { width:222px; float:left; }
+.left_title { height:26px; line-height:26px; padding-left:15px; margin-top:10px; background:url(images/left_title_bg.jpg) no-repeat; }
+.left_body { font-family:"宋体"; font-size:12px; padding:10px; border:1px solid #999999; border-top:none; margin-bottom:10px; }
+.left_body ul li { padding-left:10px; line-height:30px; border-bottom:1px dashed #999; background:url(images/ico.jpg) center left no-repeat; }
+#right { width:720px; float:right; color:#000; }
+#right a { color:#000; }
+#right a:hover { color:#F60; }
+.right_title { height:26px; line-height:26px; padding-left:25px; margin-top:10px; position:relative; background:url(images/right_title_bg.jpg) no-repeat; }
+.right_title h2 { color:#FFF; }
+.right_body { padding:10px; border:1px solid #999999; border-top:none; overflow:auto; zoom:1;}
+.more { position:absolute; right:30px; top:0px; width:50px; height:30px; text-align:center; }
+.products li { float:left; text-align:center; padding:5px; }
+.products img { width:180px;height:170px; padding:5px; border:1px solid #999999; }
+.products a:hover img { border:1px solid #166CC4; }
+.products a { line-height:22px; }
+.news li { line-height:26px; border-bottom:1px dashed #999999; padding-left:15px; background:url(images/news_ico.jpg) left center no-repeat; position:relative; }
+.data { position:absolute; right:20px; top:0px; }
+/*��������*/
+
+
+/*�ײ���ʼ*/
+#link_text { height:37px; line-height:37px; margin-top:5px; background:#01055D; }
+#link_text ul li { float:left; text-align:center; padding-left:10px; line-height:40px; }
+#link_text ul li a { color:#FFF; }
+#link_img { }
+#link_img ul img { padding:3px; border:1px solid #999; }
+#link_img a:hover img { border:1px solid #373ED7; }
+#link_img ul li { float:left; text-align:center; padding-left:10px; line-height:40px; }
+#footer { text-align:center; padding:10px 0; }
+/*�ײ�����*
+
+/*������ʼ*/
+.table { border-collapse:collapse; width:100%; margin-top:10px; }
+.table td { padding:5px; border:1px solid #CCC; }
+.table th { text-align:center; padding:5px; border:1px solid #CCC; }
+/*��������*/
+.submit { text-align:center; }
+.submit input { padding:10px 25px; }
+/*��ҳ����ʽ */
+.pagination{ margin:0 10px 10px 15px;line-height:23px;text-align:center;}
+.pagination span, .pagination a{font-size:12px;margin: 2px 6px 2px 0;background:#fff;border:1px solid #ccc;color:#787878;padding:2px 5px 2px 5px;text-decoration:none;}
+.pagination a:hover{background: #8cb900;border:1px solid #436206;color:#fff;font-size:12px;padding:2px 5px 2px 5px;}
+.pagination .current{background: #8cb900;border:1px solid #436206;color:#fff;font-size:12px;padding:2px 5px 2px 5px;}
+
+.pg_more{ width:700px; margin-top:12px; margin-bottom:12px; text-align:center; border-bottom:1px dotted #CCC; overflow:hidden;}
